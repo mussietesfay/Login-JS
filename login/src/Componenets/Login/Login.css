@@ -6,6 +6,7 @@
     margin-top: 200px;
     width: 600px;
     padding-bottom: 30px;
+    height: 98vh;
 }
 .header{
     display: flex;
@@ -80,6 +81,8 @@
     font-size: 19px;
     font-weight: 700;
     cursor: pointer;
-
-
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
 }
