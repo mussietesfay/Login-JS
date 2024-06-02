@@ -13,16 +13,16 @@ function Login() {
         </div>
         <div className="inputs">
             <div className="input">
-              <FaUser />
-                <input type="text" />
+              <span className='icons'><FaUser /></span>
+                <input type="text"  placeholder='Name'/>
             </div>
             <div className="input">
-                <MdEmail />
-                <input type="email" />
+                <span className='icons'><MdEmail /></span>
+                <input type="email" placeholder='Email Id' />
             </div>
             <div className="input">
-            <RiLockPasswordFill />
-                <input type="password" />
+            <span className='icons'><RiLockPasswordFill /></span>
+                <input type="password" placeholder='Password' />
             </div>
         </div>
         <div className="forgot-password">Lost Password? <span>Click here!</span></div>
